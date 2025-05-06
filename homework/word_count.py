@@ -11,10 +11,8 @@ from itertools import groupby
 from toolz.itertoolz import concat, pluck
 
 
-
 def copy_raw_files_to_input_folder(n):
     """Generate n copies of the raw files in the input folder"""
-
 
 
 def load_input(input_directory):
@@ -28,6 +26,7 @@ def preprocess_line(x):
 def map_line(x):
     pass
 
+
 def mapper(sequence):
     """Mapper"""
 
@@ -36,9 +35,9 @@ def shuffle_and_sort(sequence):
     """Shuffle and Sort"""
 
 
-
 def compute_sum_by_group(group):
     pass
+
 
 def reducer(sequence):
     """Reducer"""
